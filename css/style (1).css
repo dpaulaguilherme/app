@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+
+body{
+  background-color: #ce1379;
+  background-image: url('../images/bg-tuner-2@2x.png');
+  background-size: cover;
+}
+
+.tuner_logo{
+  background-image: url('../images/tuner_logo@2x.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 141px;
+  height: 29px;
+  margin: 138px auto auto auto;
+  z-index: 3;
+}
+
+.main_graphic_element{
+  background-image: url('../images/clouds_element.png');
+  background-size: cover;
+  width: 100%;
+  height: 256px;
+  opacity: 0.7;
+  position: fixed;
+  z-index: 2 !important;
+  bottom: 0;
+}
+
+.main-text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 32px;
+  z-index: 4;
+}
+
+.main-purple-button{
+  width: 100%;
+  height: 50px;
+  background-color: #350068;
+  border-radius: 26px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  padding-top: 14px;
+  letter-spacing: 0.5px;
+  margin-top: 160px;
+  z-index: 100 !important;
+}
+.main-purple-button a{
+  color: #ffffff;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.main-white-button{
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 26px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  position: relative;
+  text-align: center;
+  padding-top: 14px;
+  letter-spacing: 0.5px;
+  margin-top: 16px;
+  z-index: 101 !important;
+}
+.main-white-button a{
+  color: #350068;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.login-title{
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 74px;
+  position: relative;
+}
+
+.white-top-bar{
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  display: inline-flex;
+}
+
+.left-arrow{
+  background-image: url('../images/ic_arrow_back_black_24px@2x.png');
+  background-size: cover;
+  width: 29px;
+  height: 29px;
+  margin: 11px 0;
+}
+
+.center-symbol{
+  background-image: url('../images/logo-tuner@2x.png');
+  background-size: cover;
+  width: 40px;
+  height: 26px;
+  margin: 11px auto 0 auto;
+}
+
+.label-form{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.frmlogin{
+  margin-top: 124px;
+}
+
+
+form input[type="email"]{
+    width: 100%;
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: 0 !important;
+    background: transparent !important;
+    border-bottom: 2px solid #ffffff !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    color : #ffffff;
+}
+form input[type="email"]:focus {
+    width: 100%;
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: 0 !important;
+    background: transparent !important;
+    border-bottom: 2px solid #e56fae !important;
+    border-radius: 0 !important;
+    color : #ffffff;
+}
